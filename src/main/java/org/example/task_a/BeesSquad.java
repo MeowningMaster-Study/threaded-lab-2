@@ -1,4 +1,4 @@
-package org.example;
+package org.example.task_a;
 
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.concurrent.atomic.AtomicBoolean;

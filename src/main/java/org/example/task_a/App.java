@@ -1,4 +1,4 @@
-package org.example;
+package org.example.task_a;
 
 import java.util.ArrayList;
 import java.util.concurrent.ExecutorService;
@@ -9,7 +9,7 @@ public class App
 {
     static ArrayList<Boolean> fields;
 
-    public static void main( String[] args )
+    public static void main(String[] args)
     {
         int fieldsCount = ThreadLocalRandom.current().nextInt(50,  100);
         int bearPosition = ThreadLocalRandom.current().nextInt(1,  fieldsCount);
